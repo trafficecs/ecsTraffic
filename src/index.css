@@ -1,0 +1,427 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* navbar start */
+nav {
+  background: linear-gradient(45deg, #07689F, #054970);
+}
+
+#businessLogo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid grey;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav .pages li:hover {
+  border-radius: 20px;
+  width: fit-content;
+  padding: 0px 10px;
+  box-shadow: 0px 2px 2px black;
+  background: linear-gradient(10deg, #8e5ee1, #7232e1);
+}
+
+nav .navSocialMedial li {
+  transition: all 1.5s;
+  /* padding: 10px 0px; */
+  border-radius: 20px;
+}
+
+nav .navSocialMedial li:hover {
+  border-radius: 20px;
+  width: fit-content;
+  padding: 10px 10px;
+  box-shadow: 0px 2px 2px black;
+  background: linear-gradient(4deg, #b0f2ef, #78c5db);
+}
+
+.socialMedias a {
+  color: aliceblue;
+  padding: 10px;
+}
+
+nav .navSocialMedial li:hover a {
+  color: rgb(5, 11, 16);
+}
+
+.socialMedias .instagram i {
+  transition: all 1.5s;
+}
+
+.socialMedias .facebook i {
+  transition: all 1.5s;
+}
+
+.socialMedias .twitter i {
+  transition: all 1.5s;
+}
+
+.socialMedias .linkedin i {
+  transition: all 1.5s;
+}
+
+.socialMedias .instagram i:hover {
+  color: rgb(188, 1, 1);
+  font-weight: bolder;
+  cursor: pointer;
+  transform: scale(1.5, 1.5) rotate(360.1deg);
+}
+
+.socialMedias .facebook i:hover {
+  color: #0a6ae8;
+  font-weight: bolder;
+  cursor: pointer;
+  transform: scale(1.5, 1.5) rotate(360.1deg);
+}
+
+.socialMedias .twitter i:hover {
+  color: #1da1f2;
+  font-weight: bolder;
+  cursor: pointer;
+  transform: scale(1.5, 1.5) rotate(360.1deg);
+}
+
+.socialMedias .linkedin i:hover {
+  color: #1da1f2;
+  font-weight: bolder;
+  cursor: pointer;
+  transform: scale(1.5, 1.5) rotate(360.1deg);
+}
+
+
+#ContactUs .modal-header{
+  background: linear-gradient(30deg, #07713b,  #09bea6);
+  
+}
+#ContactUs .modal-body{
+  background: linear-gradient(30deg, #076371,  #0991be);
+  
+}
+#ContactUs .modal-body ul li{
+  font-size: large;
+  margin: 10px 0px;
+  color: white;
+  list-style-type: none;
+}
+#ContactUs .modal-body ul li:hover{
+  background: none;
+  box-shadow: none;
+}
+#ContactUs button{
+  border-radius: 50%;
+}
+
+/* navbar end */
+
+/* body start */
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.containerWrap {
+  flex: 1;
+}
+
+/* body end */
+
+/* footer start */
+
+footer {
+  position: relative;
+  bottom: 0px;
+  background: linear-gradient(45deg, #7232e1, #7136d7);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+footer .aboutUs {
+  display: inline-block;
+}
+
+footer .aboutUsSocialMedia {
+  list-style-type: none;
+}
+
+footer #servicesFooter {
+  list-style-type: none;
+  margin-left: -10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: rgb(0, 5, 10);
+}
+
+footer .copyRight {
+  background-color: #FF7431;
+  padding-top: 4px;
+}
+
+footer .footerSocialMediaIcons  {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around ;
+}
+footer #ServicesOffered{
+  position: relative;
+  left: -5px;
+}
+footer .footerSocialMediaIcons div:hover {
+  transform: scale(1.3, 1.3);
+}
+footer .footerSocialMedias a {
+  color: black;
+  font-weight: bold;
+
+}
+
+footer .footerSocialMedias a i:hover {
+  color: rgb(254, 253, 254);
+  transform: scale(1.2, 1.2);
+}
+
+footer .contactUs ul li {
+  list-style: none;
+  position: relative;
+  left: -30px;
+  margin: 10px 0px;
+}
+
+/* Footer END */
+
+/* App.js Start */
+
+.mainContent {
+  overflow: hidden;
+}
+
+/* App.js End */
+
+/* Home Content */
+
+.videoCont {
+  height: fit-content;
+  width: 100%;
+  position: relative;
+}
+
+.videoCont video {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+
+#textBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#textBox .companyNameTxt {
+  font-weight: bolder;
+  font-size: 10vw;
+  /* text-shadow: 2px 0 #0000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+    1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000; */
+}
+
+#textBox .animate-charecter {
+  background-image: linear-gradient(-225deg,
+      #290b95 0%,
+      #0bf545 29%,
+      #ff1361 67%,
+      #06959d 80%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+
+}
+
+.underVideoContent {
+  margin-top: 10px;
+}
+
+/* Home content end */
+
+/* Service start */
+#IntersectionCount .card {
+  border-radius: 10px;
+  background: linear-gradient(45deg, purple, deeppink);
+  box-shadow: 0px 5px 5px black;
+}
+
+#IntersectionCount .servicesImageContainer img {
+  border-radius: 10px;
+  height: 210px;
+  width: 400px;
+}
+
+#RoundAbout .card {
+  border-radius: 10px;
+  background: linear-gradient(45deg, purple, deeppink);
+  box-shadow: 0px 5px 5px black;
+}
+
+#RoundAbout .servicesImageContainer img {
+  border-radius: 10px;
+  height: 210px;
+  width: 400px;
+}
+
+#Pedstrains .card {
+  border-radius: 10px !important;
+  background: linear-gradient(45deg, purple, deeppink);
+  box-shadow: 0px 5px 5px black;
+}
+
+#Pedstrains .servicesImageContainer img {
+  border-radius: 10px;
+  height: 210px;
+  width: 400px;
+}
+
+#TrafficViolations .card {
+  border-radius: 10px !important;
+  background: linear-gradient(45deg, purple, deeppink);
+  box-shadow: 0px 5px 5px black;
+}
+
+#TrafficViolations .servicesImageContainer img {
+  border-radius: 10px;
+  height: 210px;
+  width: 400px;
+}
+
+#NumberPlate .card {
+  border-radius: 10px !important;
+  background: linear-gradient(45deg, purple, deeppink);
+  box-shadow: 0px 5px 5px black;
+}
+
+#NumberPlate .servicesImageContainer img {
+  border-radius: 10px;
+  height: 210px;
+  width: 400px;
+}
+
+#Queue .card {
+  border-radius: 10px !important;
+  background: linear-gradient(45deg, purple, deeppink);
+  box-shadow: 0px 5px 5px black;
+}
+
+#Queue .servicesImageContainer img {
+  border-radius: 10px;
+  height: 210px;
+  width: 400px;
+}
+
+#MidBlock .card {
+  border-radius: 10px !important;
+  background: linear-gradient(45deg, purple, deeppink);
+  box-shadow: 0px 5px 5px black;
+}
+
+#MidBlock .servicesImageContainer img {
+  border-radius: 10px;
+  height: 210px;
+  width: 400px;
+}
+
+#Parking .card {
+  border-radius: 10px !important;
+  background: linear-gradient(45deg, purple, deeppink);
+  box-shadow: 0px 5px 5px black;
+}
+
+#Parking .servicesImageContainer img {
+  border-radius: 10px;
+  height: 210px;
+  width: 400px;
+}
+
+#Bicycles .card {
+  border-radius: 10px !important;
+  background: linear-gradient(45deg, purple, deeppink);
+  box-shadow: 0px 5px 5px black;
+}
+
+#Bicycles .servicesImageContainer img {
+  border-radius: 10px;
+  height: 210px;
+  width: 400px;
+}
+
+/* services modal start */
+.modal-header {
+  background-color: #7232e1;
+}
+
+.modal-body {
+  /* background-color: rgb(15, 173, 235); */
+  background-color: rgb(217, 132, 5);
+}
+
+.modal .modal-header #closeBtn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid rgb(232, 56, 56);
+
+}
+
+.modal .modal-header #closeBtn i {
+  color: #ed5102;
+}
+
+.modal .modal-body .seviceModalImageContainer img {
+  border-radius: 10px;
+  box-shadow: 0px 2px 2px black;
+}
+
+/* services modal end */
+/* services end */

@@ -1,0 +1,208 @@
+<li>Intersection Count</li>
+            <li>Roundabout Counts</li>
+            <li>Pedestrain Count</li>
+            <li>Parking Surveys</li>
+            <li>Queue Length Surveys</li>
+            <li>Traffic Violations</li>
+            <li>Mid-Block Counts</li>
+            <li>Number Plate Recognition</li>
+
+
+
+{/* <div id='IntersectionCount' className='animate__animated animate__rollIn ' >
+        <div className="card">
+          <div className='servicesImageContainer text-center card-header py-3'>
+            <img src={interSection} alt="" className='img-fluid' />
+          </div>
+          <div className="card-body servicesTextContainer text-white">
+            <h1>Intersection Count</h1>
+            {paragraph ?
+              <>
+                <p>
+                  Intersection count reports on directional volume of traffic as it moves through a signalized or
+                  non-signalized junction. Also called a turning movement count TMC. Our intersection count
+                  study tabulates number of left-turn, right-turn, u-turn and through movements for each
+                  approach. Our team have a good experience in intersection they will do any kind of interSections like T-Junctions,
+                  and more complex level of junctions with 100 percent quality.
+                </p>
+                <button className="btn btn-warning" onClick={() => setParagraph(false)}>Close</button>
+              </>
+              :
+              <>
+                <p>
+                  Intersection count reports on directional volume of traffic as it moves through a signalized or
+                  non-signalized junction. Also called a turning movement . . . .
+                </p>
+                <button className="btn btn-primary" onClick={() => setParagraph(true)}>Read more..</button>
+              </>
+            }
+          </div>
+        </div>
+      </div> */}
+
+
+
+        // <div id='RoundAbout' className='animate__animated animate__rollIn animate__delay-1s'>
+    //   <div className="card">
+    //     <div className='servicesImageContainer text-center card-header py-3'>
+    //       <img src={roundAbout} alt="" className='img-fluid' />
+    //     </div>
+    //     <div className="card-body servicesTextContainer text-white">
+    //       <h1>Roundabout Count</h1>
+    //       {paragraph ?
+    //         <>
+    //           <p>
+    //             We will provide very complex level of cemara roundabout junctions with quality and in time prodution with line by line tracking, our members are experienced if  there is a  high  volume of velicals with different classifications  passing the roundabout junctons we will provide good output.
+    //           </p>
+    //           <button className="btn btn-warning" onClick={() => setParagraph(false)}>Close</button>
+    //         </>
+    //         :
+    //         <>
+    //           <p>
+    //             We will provide very complex level of cemara roundabout junctions with quality and in time prodution with line by line tracking, our members are experienced. . . .
+    //           </p>
+    //           <button className="btn btn-primary" onClick={() => setParagraph(true)}>Read more..</button>
+    //         </>
+    //       }
+    //     </div>
+    //   </div>
+    // </div>
+
+
+    // <div id='Queue' className='animate__animated animate__rollIn animate__delay-1s'>
+    //   <div className="card">
+    //     <div className='servicesImageContainer text-center card-header py-3'>
+    //       <img src={queue} alt="" className='img-fluid' />
+    //     </div>
+    //     <div className="card-body servicesTextContainer text-white">
+    //       <h1>Queues Count</h1>
+    //       <p>
+    //         we will do the lents its turning moviment and passing the junction (right or left) with accurate counts and we will provide 24hrs round the number of vehicals,pedistain etc. pass.
+    //       </p>
+    //     </div>
+    //   </div>
+    // </div>
+
+
+    // <div id='NumberPlate' className='animate__animated animate__rollIn animate__delay-2s'>
+    //   <div className="card">
+    //     <div className='servicesImageContainer text-center card-header py-3'>
+    //       <img src={numberPlate} alt="" className='img-fluid' />
+    //     </div>
+    //     <div className="card-body servicesTextContainer text-white">
+    //       <h1>NumberPlate Count</h1>
+    //       {paragraph ?
+    //         <>
+    //           <p>
+    //             we will provide the ANPR with accurate its is realiable way to monitor traffic movement, this ANPR grreat assest to law enforsment ,parking ,highway monitoring and any location parking
+    //             to moniter day by day traffic flows.
+    //           </p>
+    //           <button className="btn btn-warning" onClick={() => setParagraph(false)}>Close</button>
+    //         </>
+    //         :
+    //         <>
+    //           <p>
+    //             we will provide the ANPR with accurate its is realiable way to monitor traffic  . . . .
+    //           </p>
+    //           <button className="btn btn-primary" onClick={() => setParagraph(true)}>Read more..</button>
+    //         </>
+    //       }
+    //     </div>
+    //   </div>
+    // </div>
+
+
+    // <div id='MidBlock' className='animate__animated animate__rollIn'>
+    //   <div className="card">
+    //     <div className='servicesImageContainer text-center card-header py-3'>
+    //       <img src={midBlock} alt="" className='img-fluid' />
+    //     </div>
+    //     <div className="card-body servicesTextContainer text-white">
+    //       <h1>MidBlock Count</h1>
+    //       {paragraph ?
+    //         <>
+    //           <p>
+    //             In Midblock its helps to find the volume of vehicals to travel
+    //             and different vehical classes in any road way for strightway  from some distance from an intersection,it will helps the recording of vehical type.
+    //           </p>
+    //           <button className="btn btn-warning" onClick={() => setParagraph(false)}>Close</button>
+    //         </>
+    //         :
+    //         <>
+    //           <p>
+    //             In Midblock its helps to find the volume of vehicals to travel and different vehical classes in any road way for strightway  from some distance from an intersection.....
+    //           </p>
+    //           <button className="btn btn-primary" onClick={() => setParagraph(true)}>Read more..</button>
+    //         </>
+    //       }
+    //     </div>
+    //   </div>
+    // </div>
+
+    // <div id='Parking' className='animate__animated animate__rollIn' >
+    //   <div className="card">
+    //     <div className='servicesImageContainer text-center card-header py-3'>
+    //       <img src={parking} alt="" className='img-fluid' />
+    //     </div>
+    //     <div className="card-body servicesTextContainer text-white">
+    //       <h1>Parking Count</h1>
+    //       {paragraph ?
+    //         <>
+    //           <p>
+    //             Tracking vehical traffic in and out of parking lot or commerical location  can be simplefied with counts different classfications, this survey is ued to identify parking trnds and needs and
+    //             we will collect the data lent of the stay in the parking lot its will heps to improve the parking lots.
+    //           </p>
+    //           <button className="btn btn-warning" onClick={() => setParagraph(false)}>Close</button>
+    //         </>
+    //         :
+    //         <>
+    //           <p>
+    //             Tracking vehical traffic in and out of parking lot or commerical location  can be simplefied with counts different classfications, this survey is ued to identify parking.....
+    //           </p>
+    //           <button className="btn btn-primary" onClick={() => setParagraph(true)}>Read more..</button>
+    //         </>
+    //       }
+    //     </div>
+    //   </div>
+    // </div>
+
+    // <div id='Bicycles' className='animate__animated animate__rollIn'>
+    //   <div className="card">
+    //     <div className='servicesImageContainer text-center card-header py-3'>
+    //       <img src={bicycles} alt="" className='img-fluid' />
+    //     </div>
+    //     <div className="card-body servicesTextContainer text-white">
+    //       <h1>Bicycles Count</h1>
+    //       <p>
+    //         we will provide the bicycle count in traffic servey all kind of bicycle and includes with people with disabilities count which helps during the traffic data analysis thus help and support  wth the achivement of ultimate goals
+    //       </p>
+    //     </div>
+    //   </div>
+    // </div>
+
+
+    // <div id='Pedstrains' className='animate__animated animate__rollIn animate__delay-2s'>
+    //   <div className="card">
+    //     <div className='servicesImageContainer text-center card-header py-3'>
+    //       <img src={pedestrains} alt="" className='img-fluid' />
+    //     </div>
+    //     <div className="card-body servicesTextContainer text-white">
+    //       <h1>Pedestrains Count</h1>
+    //       {paragraph ?
+    //         <>
+    //           <p>
+    //             we will provide pedistrains with all classifictions it will helps you to find the how many of crossing the roads and movng along the roads and parks to build better ways.
+    //           </p>
+    //           <button className="btn btn-warning" onClick={() => setParagraph(false)}>Close</button>
+    //         </>
+    //         :
+    //         <>
+    //           <p>
+    //             we will provide pedistrains with all classifictions it will helps you to find the how many of crossing the roads and movng along the roads and parks . . . .
+    //           </p>
+    //           <button className="btn btn-primary" onClick={() => setParagraph(true)}>Read more..</button>
+    //         </>
+    //       }
+    //     </div>
+    //   </div>
+    // </div>

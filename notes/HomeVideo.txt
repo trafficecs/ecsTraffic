@@ -1,0 +1,32 @@
+      {/* <div id='vedioContainer' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+        <div id="videoText">
+          <h1 className='display-1 text-center'><b>ECS</b></h1>
+          <h1>TRAFFIC SERVICES</h1>
+        </div>
+        <video muted autoPlay loop id="homeVideo" className='img-fluid'>
+          <source src={businessVedio} type="video/mp4" />
+        </video>
+      </div> */}
+
+
+      /* #textBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#textBox h1 {
+  color: orangered;
+}
+
+#textBox .companyNameTxt {
+  font-weight: bolder;
+  font-size: 10vw;
+  text-shadow: 2px 0 #0000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+    1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+} */
