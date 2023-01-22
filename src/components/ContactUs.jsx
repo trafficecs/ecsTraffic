@@ -2,7 +2,7 @@ import React from 'react'
 import axios from 'axios'
 
 const ContactUs = () => {
-  const url = "https://backend-ruby-zeta.vercel.app/"
+  const url = "https://backend-ruby-zeta.vercel.app/api/sending_individual_mail"
   const sendingMail = () => {
     axios.post(url,{
       "email" : "rajeshvarma0322@gmail.com",
