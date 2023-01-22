@@ -1,6 +1,20 @@
 import React from 'react'
+import axios from 'axios'
 
 const ContactUs = () => {
+  const url = "https://backend-ruby-zeta.vercel.app/"
+  const sendingMail = () => {
+    axios.post(url,{
+      "email" : "rajeshvarma0322@gmail.com",
+      "subject" : "Here completed",
+      "message" : "Finally completed"
+    }).then( response => {
+      console.log(response)
+      console.log("Complte")
+    }).catch(error => {
+      console.log(error)
+    })
+  }
   return (
     <div id='ContactUs'>
       <div class="modal-header text-white">
@@ -16,6 +30,7 @@ const ContactUs = () => {
           <li><i className="fa-solid fa-location-dot me-1"></i> Gorantla, Andhra Pradesh, India,  515231.</li>
         </ul>
       </div>
+      <button className="btn" onClick={() => sendingMail()}>Click Me</button>
     </div>
   )
 }
