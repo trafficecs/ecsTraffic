@@ -30,7 +30,7 @@ const ContactUs = () => {
           <li><i className="fa-solid fa-location-dot me-1"></i> Gorantla, Andhra Pradesh, India,  515231.</li>
         </ul>
       </div>
-      <button className="btn" onClick={() => sendingMail()}>Click Me</button>
+      {/* <button className="btn" onClick={() => sendingMail()}>Click Me</button> */}
     </div>
   )
 }
