@@ -104,25 +104,29 @@ nav .navSocialMedial li:hover a {
 }
 
 
-#ContactUs .modal-header{
-  background: linear-gradient(30deg, #07713b,  #09bea6);
-  
+#ContactUs .modal-header {
+  background: linear-gradient(30deg, #07713b, #09bea6);
+
 }
-#ContactUs .modal-body{
-  background: linear-gradient(30deg, #076371,  #0991be);
-  
+
+#ContactUs .modal-body {
+  background: linear-gradient(30deg, #076371, #0991be);
+
 }
-#ContactUs .modal-body ul li{
+
+#ContactUs .modal-body ul li {
   font-size: large;
   margin: 10px 0px;
   color: white;
   list-style-type: none;
 }
-#ContactUs .modal-body ul li:hover{
+
+#ContactUs .modal-body ul li:hover {
   background: none;
   box-shadow: none;
 }
-#ContactUs button{
+
+#ContactUs button {
   border-radius: 50%;
 }
 
@@ -182,19 +186,27 @@ footer .copyRight {
   padding-top: 4px;
 }
 
-footer .footerSocialMediaIcons  {
+footer .footerSocialMedias {
+  position: relative;
+  left: -2rem;
+}
+
+footer .footerSocialMediaIcons {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around ;
+  justify-content: space-around;
 }
-footer #ServicesOffered{
+
+footer #ServicesOffered {
   position: relative;
   left: -5px;
 }
+
 footer .footerSocialMediaIcons div:hover {
   transform: scale(1.3, 1.3);
 }
+
 footer .footerSocialMedias a {
   color: black;
   font-weight: bold;

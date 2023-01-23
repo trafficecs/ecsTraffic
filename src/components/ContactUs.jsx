@@ -4,11 +4,11 @@ import axios from 'axios'
 const ContactUs = () => {
   const url = "https://backend-ruby-zeta.vercel.app/api/sending_individual_mail"
   const sendingMail = () => {
-    axios.post(url,{
-      "email" : "rajeshvarma0322@gmail.com",
-      "subject" : "Here completed",
-      "message" : "Finally completed"
-    }).then( response => {
+    axios.post(url, {
+      "email": "rajeshvarma0322@gmail.com",
+      "subject": "Here completed",
+      "message": "Finally completed Rajesh"
+    }).then(response => {
       console.log(response)
       console.log("Complte")
     }).catch(error => {
