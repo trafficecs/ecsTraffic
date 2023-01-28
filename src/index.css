@@ -103,33 +103,6 @@ nav .navSocialMedial li:hover a {
   transform: scale(1.5, 1.5) rotate(360.1deg);
 }
 
-
-#ContactUs .modal-header {
-  background: linear-gradient(30deg, #07713b, #09bea6);
-
-}
-
-#ContactUs .modal-body {
-  background: linear-gradient(30deg, #076371, #0991be);
-
-}
-
-#ContactUs .modal-body ul li {
-  font-size: large;
-  margin: 10px 0px;
-  color: white;
-  list-style-type: none;
-}
-
-#ContactUs .modal-body ul li:hover {
-  background: none;
-  box-shadow: none;
-}
-
-#ContactUs button {
-  border-radius: 50%;
-}
-
 /* navbar end */
 
 /* body start */
@@ -302,8 +275,8 @@ footer .contactUs ul li {
 /* Service start */
 #IntersectionCount .card {
   border-radius: 10px;
-  background: linear-gradient(45deg, purple, deeppink);
-  box-shadow: 0px 5px 5px black;
+  background: linear-gradient(45deg, #ca6120, #e94b16);
+  box-shadow: 0px 5px 5px black;  
 }
 
 #IntersectionCount .servicesImageContainer img {
@@ -314,8 +287,10 @@ footer .contactUs ul li {
 
 #RoundAbout .card {
   border-radius: 10px;
-  background: linear-gradient(45deg, purple, deeppink);
+  /* background: linear-gradient(45deg, rgb(0, 128, 94), rgb(255, 130, 4)); */
+  background: linear-gradient(45deg, #468691, #0e7281);
   box-shadow: 0px 5px 5px black;
+  border: 1px solid green;
 }
 
 #RoundAbout .servicesImageContainer img {
@@ -325,8 +300,8 @@ footer .contactUs ul li {
 }
 
 #Pedstrains .card {
-  border-radius: 10px !important;
-  background: linear-gradient(45deg, purple, deeppink);
+  border-radius: 10px;
+  background: linear-gradient(45deg, rgb(16, 40, 163), rgb(20, 216, 255));
   box-shadow: 0px 5px 5px black;
 }
 
@@ -337,8 +312,8 @@ footer .contactUs ul li {
 }
 
 #TrafficViolations .card {
-  border-radius: 10px !important;
-  background: linear-gradient(45deg, purple, deeppink);
+  border-radius: 10px;
+  background: linear-gradient(45deg, rgb(164, 116, 13), rgb(245, 114, 6));
   box-shadow: 0px 5px 5px black;
 }
 
@@ -349,8 +324,8 @@ footer .contactUs ul li {
 }
 
 #NumberPlate .card {
-  border-radius: 10px !important;
-  background: linear-gradient(45deg, purple, deeppink);
+  border-radius: 10px;
+  background: linear-gradient(45deg, rgb(43, 77, 119), rgb(20, 235, 255));
   box-shadow: 0px 5px 5px black;
 }
 
@@ -361,8 +336,8 @@ footer .contactUs ul li {
 }
 
 #Queue .card {
-  border-radius: 10px !important;
-  background: linear-gradient(45deg, purple, deeppink);
+  border-radius: 10px;
+  background: linear-gradient(45deg, rgb(11, 137, 105), rgb(4, 135, 147));
   box-shadow: 0px 5px 5px black;
 }
 
@@ -373,8 +348,8 @@ footer .contactUs ul li {
 }
 
 #MidBlock .card {
-  border-radius: 10px !important;
-  background: linear-gradient(45deg, purple, deeppink);
+  border-radius: 10px;
+  background: linear-gradient(45deg, rgb(187, 76, 76), rgb(153, 79, 39));
   box-shadow: 0px 5px 5px black;
 }
 
@@ -385,8 +360,8 @@ footer .contactUs ul li {
 }
 
 #Parking .card {
-  border-radius: 10px !important;
-  background: linear-gradient(45deg, purple, deeppink);
+  border-radius: 10px;
+  background: linear-gradient(45deg, #16abdd, #516fe2, #8a35e8);
   box-shadow: 0px 5px 5px black;
 }
 
@@ -397,7 +372,7 @@ footer .contactUs ul li {
 }
 
 #Bicycles .card {
-  border-radius: 10px !important;
+  border-radius: 10px;
   background: linear-gradient(45deg, purple, deeppink);
   box-shadow: 0px 5px 5px black;
 }
@@ -437,3 +412,146 @@ footer .contactUs ul li {
 
 /* services modal end */
 /* services end */
+
+/* contact us start */
+
+#ContactUs .contactForm {
+  /* background-color: #f26334; */
+  background: linear-gradient(45deg, #ccad33, #f26334);
+  color: white;
+  border: none;
+}
+
+#ContactUs .btnZoomContact:hover {
+  transform: scale(1.2, 1.3);
+}
+#ContactUs .reachUsCard:hover{
+  transform: scale(1.1, 1.1);
+}
+#ContactUsForm .btnSubmit {
+  background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  border: none;
+}
+
+#ContactUsForm .btnSubmit:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+
+@media only screen and (min-width: 992px) {
+  #ContactUs #backBackground {
+    border-radius: 0 10%;
+    background-color: #3a6a71;
+  }
+
+  #ContactUs .textContainers {
+    background-color: #23a0c6;
+    padding: 20px 30px 100px 30px;
+    color: white;
+    border-radius: 0 25%;
+  }
+
+  #ContactUs #reachUsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    height: 180px;
+  }
+
+  #ContactUs .reachUsCard {
+    margin: 20px 30px 70px 30px;
+    top: -100px;
+    width: 450px;
+    height: 250px;
+  }
+
+  /* Form in Contact us start */
+  #ContactUs .iconMail {
+    color: rgb(0, 149, 255);
+    font-size: 100px;
+  }
+
+
+
+  /* Form in Contact us end */
+}
+
+@media only screen and (min-width: 768px) {
+
+  #ContactUs .textContainers {
+    background-color: #23a0c6;
+    padding: 20px 30px 100px 30px;
+    color: white;
+  }
+
+  #ContactUs #reachUsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    height: 180px;
+  }
+
+  #ContactUs .reachUsCard {
+    margin: 20px 30px 70px 30px;
+    top: -100px;
+    width: 450px;
+    height: 250px;
+  }
+
+  /* Form in Contact us start */
+  #ContactUs .iconMail {
+    color: rgb(0, 149, 255);
+    font-size: 100px;
+  }
+
+  #ContactUsForm {
+    margin-top: 3rem;
+  }
+
+  /* Form in Contact us end */
+}
+
+@media only screen and (max-width: 767px) {
+  #ContactUs .textContainers {
+    background-color: #23a0c6;
+    padding: 20px 30px 100px 30px;
+    color: white;
+  }
+
+  #ContactUs #reachUsContainer {
+    height: 400px;
+    position: relative;
+    top: -100px;
+  }
+
+  #ContactUs .reachUsCard {
+    margin: 30px auto;
+    width: 80vw;
+    height: 250px;
+  }
+
+  #ContactUs .contactAddressContent {
+    display: none !important;
+  }
+
+  #ContactUsForm {
+    margin-top: 5rem;
+  }
+}
+
+/* ContactUs End */

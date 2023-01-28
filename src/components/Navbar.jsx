@@ -21,20 +21,15 @@ const Navbar = () => {
                   Home
                 </Link>
               </li>
-              <li className="nav-item ">
+              <li className="nav-item">
                 <Link to={'/allServices'} className="nav-link text-white fw-bold">
                   Services
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white fw-bold" data-bs-toggle="modal" data-bs-target="#register-modalContactUs" href="#">Contact Info</a>
-                <div class="modal" id="register-modalContactUs">
-                  <div class="modal-dialog">
-                    <div class="modal-content animation fade-in">
-                      <ContactUs />
-                    </div>
-                  </div>
-                </div>
+                <Link to={'/contactUs'} className="nav-link text-white fw-bold">
+                  Contact Info
+                </Link>
               </li>
             </ul>
             <ul className='d-flex navbar-nav  navSocialMedial'>

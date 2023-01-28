@@ -13,7 +13,7 @@ const AllServices = () => {
   return (
     <div id='allServices' className='container my-3'>
       <div className="row">
-        <div className="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div className="col-sm-12 col-md-6 col-lg-4 mb-4 glow" >
           <IntersectionCount />
         </div>
         <div className="col-sm-12 col-md-6 col-lg-4  mb-4">
@@ -40,9 +40,6 @@ const AllServices = () => {
         <div className="col-sm-12 col-md-6 col-lg-4 mb-4">
           <Bicycles />
         </div>
-        {/* <div className="col-sm-12 col-md-6 col-lg-4 mb-4">
-          <Test />
-        </div> */}
       </div>
     </div>
   )
